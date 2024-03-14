@@ -1,0 +1,43 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    height: 3000px;
+    background-color: blue;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(240, 158, 52);
+}
+
+.content {
+    width: 80%;
+    background-color: antiquewhite;
+}
+
+.carrossel{
+    width: 100%;
+    height: 300px;
+    background-color: brown;
+    margin: 20px 0;
+}
+
+.content-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.card{
+    background-color: cyan;
+    width: 20%;
+    height: 250px;
+    padding: 10px;
+}
